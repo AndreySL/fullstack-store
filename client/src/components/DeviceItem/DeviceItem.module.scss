@@ -1,0 +1,24 @@
+.Card {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  border: 1px solid black;
+  width: 15rem;
+  padding: 5px 15px;
+
+  &Image {
+  width: 100%;
+  height: 100%;
+  }
+
+  &IconContainer {
+    border: 1px solid orange;
+  }
+  
+}
+
+.Wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

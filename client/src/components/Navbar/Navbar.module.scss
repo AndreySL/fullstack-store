@@ -1,0 +1,28 @@
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 3rem;
+  background-color: red;
+
+  &Title {
+    margin-left: 3%;
+  }
+
+  &Links {
+    margin-right: 3%;
+    display: flex;
+    gap: 2rem;
+  }
+
+  &Element {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &Description {
+      font-size: 0.8rem;
+    }
+  }
+}

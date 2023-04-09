@@ -1,0 +1,17 @@
+.BrandBar {
+  margin-top: 20px;
+  border: 1px solid black;
+  display: flex;
+  gap: 1rem;
+
+  &Item {
+    background-color: lightblue;
+    padding: 5px 15px;
+    border-radius: 0.5rem;
+    border: 1px solid black;
+  }
+}
+.Last {
+  justify-self: flex-end;
+  background-color: orange;
+}

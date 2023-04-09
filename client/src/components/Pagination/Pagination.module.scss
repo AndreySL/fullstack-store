@@ -1,0 +1,13 @@
+.Pagination {
+  border: 1px solid black;
+  display: flex;
+
+  &Item {
+    border: 1px solid red;
+    padding: 10px 10px;
+    
+    &:active {
+        background-color: orange;
+    }
+  }
+}
